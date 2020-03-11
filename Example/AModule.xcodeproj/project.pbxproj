@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* AModule_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AModule_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65796C30DDF5736E5FE9653B /* AModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AModule.podspec; path = ../AModule.podspec; sourceTree = "<group>"; };
+		65796C30DDF5736E5FE9653B /* AModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AModule.podspec; path = ../AModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A060B9117A2FE42F150756F1 /* Pods_AModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD9744E3A523683298B29C0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CC76072375FA06AAC2F61375 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD9744E3A523683298B29C0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CC76072375FA06AAC2F61375 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				5B247B9EF2030A401F950BC8 /* Pods-AModule_Tests.debug.xcconfig */,
 				38FD1DB02275CA89C793309B /* Pods-AModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

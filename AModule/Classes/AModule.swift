@@ -10,6 +10,10 @@ import UIKit
 
 public class AModule {
     
+    public init() {
+        
+    }
+    
     public func viewController_A1() -> UIViewController {
         return A1ViewController.initFromStoryboard()
     }
